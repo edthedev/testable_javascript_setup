@@ -11,7 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   # config.vm.box = "centos6"
-  config.vm.box = "centos6" # https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box 
+  config.vm.box = "centos6" # vagrant box add centos6 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box 
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
