@@ -1,0 +1,12 @@
+---
+project_home: "/home/vagrant/TDDJS"
+system_packages:
+  - git
+  - ruby
+  - rubygems
+  - nodejs
+  - npm
+npm_packages:
+  - gulp
+gem_packages:
+  - compass
