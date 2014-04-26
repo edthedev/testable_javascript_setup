@@ -16,7 +16,7 @@ Vagrant will should automatically detect VirtualBox or VMWare, as long as one or
 How to Use
 -----------
 
-1. Open a terminal, and run the following::
+Open a terminal, and run the following::
 
 	cd ~
 	git clone https://github.com/edthedev/testable_javascript_setup.git
@@ -24,7 +24,7 @@ How to Use
 	vagrant box add centos6 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box 
 	vagrant up
 
-2. Get a cup of coffee, introduce yourself to your neighbor. It will take a few minutes to create the virtual machine and install the workshop prerequisites.
+Now is a good time to get a cup of coffee, introduce yourself to your neighbor. It will take a few minutes to create the virtual machine and install the workshop prerequisites.
 
 You should now have the workshop starting source code checked out at `~/testable_javascript_setup/TddJavaScriptWorkshop`. 
 
@@ -33,7 +33,7 @@ Now open a browser to `127.0.0.1:8080`. You should see the welcome page for the 
 	If you can read this, then javascript is loaded and running correctly.
 	If you can also read this, then stylesheets are compiling correctly, too!
 
-3. If you need to stop or restart the gulp server inside your virtual machine::
+If you need to stop or restart the gulp server inside your virtual machine::
 
 	cd ~/testable_javascript_setup
 	vagrant ssh
@@ -41,7 +41,7 @@ Now open a browser to `127.0.0.1:8080`. You should see the welcome page for the 
 	cd /vagrant
 	gulp serve
 
-4. When you're finished with the workshop, you can clean up the virtual machine you created.::
+When you're finished with the workshop, you can clean up the virtual machine you created.::
 
 	cd ~/testable_javascript_setup
 	vagrant halt
