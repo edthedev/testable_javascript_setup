@@ -21,9 +21,11 @@
       git: repo=https://github.com/edthedev/TddJavaScriptWorkshop.git dest={{ project_home }}
     - name: install workshop
       shell: "cd {{ project_home }}; npm install"
-      notify: verify_install
+      notify: 
+        - verify_install
+        - serve_app
   handlers:
     - name: verify_install
       shell: "cd {{ project_home }}; gulp"
-    - name: serve_page
+    - name: serve_app
       shell: "cd {{ project_home }}; gulp serve"
