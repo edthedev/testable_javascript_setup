@@ -18,7 +18,7 @@
       shell: "gem install {{ item }} " 
       with_items: gem_packages 
     - name: clone workshop repo
-      git: repo=https://github.com/edthedev/TddJavaScriptWorkshop.git
+      git: repo=https://github.com/edthedev/TddJavaScriptWorkshop.git dest={{ project_home }}
     - name: install workshop
       shell: "cd {{ project_home }}; npm install"
       notify: verify_install
