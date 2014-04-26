@@ -1,5 +1,5 @@
 ---
-project_home: "/home/vagrant/TDDJS"
+project_home: "/vagrant/TddJavaScriptWorkshop"
 system_packages:
   - git
   - ruby
