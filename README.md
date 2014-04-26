@@ -28,7 +28,10 @@ How to Use
 
 You should now have the workshop starting source code checked out at `~/testable_javascript_setup/TddJavaScriptWorkshop`. 
 
-Now open a browser to `127.0.0.1:8080`. You should see the welcome page for the applicatoin.
+Now open a browser to `127.0.0.1:8080`. You should see the welcome page for the application.::
+
+	If you can read this, then javascript is loaded and running correctly.
+	If you can also read this, then stylesheets are compiling correctly, too!
 
 3. If you need to stop or restart the gulp server inside your virtual machine::
 
