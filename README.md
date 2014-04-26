@@ -21,6 +21,7 @@ How to Use
 	cd ~
 	git clone https://github.com/edthedev/testable_javascript_setup.git
 	cd ~/testable_javascript_setup
+	vagrant box add centos6 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box 
 	vagrant up
 
 2. Get a cup of coffee, introduce yourself to your neighbor. It will take a few minutes to create the virtual machine and install the workshop prerequisites.
