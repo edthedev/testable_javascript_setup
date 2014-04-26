@@ -11,7 +11,7 @@ This method of set up has three requirements of it's own, but with these require
 2. VirtualBox or VMWare - https://www.virtualbox.org/wiki/Downloads
 3. Ansible Core - http://docs.ansible.com/intro_installation.html#installing-the-control-machine
 
-Vagrant should automatically detect VirtualBox or VMWare, as long as one or the other is installed.
+Vagrant will automatically detect VirtualBox or VMWare, as long as one or the other is installed, and Vagrant will also automatically detect Ansible.
 
 How to Use
 -----------
