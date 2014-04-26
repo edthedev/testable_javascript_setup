@@ -5,7 +5,7 @@ This is a companion project to Patrick Delancy's Test Driven Development JavaScr
 
 Requirements
 -------------
-Naturally, this project has it's own requirements.
+This method of set up has three requirements of it's own, but with these requirements you can set up many different development environments in the future.
 
 1. Vagrant (version 1.5.2 or later) - http://www.vagrantup.com/downloads.html
 2. VirtualBox or VMWare - https://www.virtualbox.org/wiki/Downloads
