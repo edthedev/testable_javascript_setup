@@ -10,6 +10,7 @@ This method of set up has three requirements of it's own, but with these require
 1. Vagrant (version 1.5.2 or later) - http://www.vagrantup.com/downloads.html
 2. VirtualBox or VMWare - https://www.virtualbox.org/wiki/Downloads
 3. Ansible Core - http://docs.ansible.com/intro_installation.html#installing-the-control-machine
+4. Git - http://git-scm.com/downloads
 
 Vagrant will automatically detect VirtualBox or VMWare, as long as one or the other is installed, and Vagrant will also automatically detect Ansible.
 
